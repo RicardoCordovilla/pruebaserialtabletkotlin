@@ -62,9 +62,6 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
-    // Librería UsbSerial (elige una versión, recomiendo 6.1.0 primero)
-//    implementation("com.github.felHR85:UsbSerial:6.0.3")
-//    implementation("com.github.mik3y:usb-serial-for-android:3.7.0")Ï
-//    implementation("com.github.mik3y:usb-serial-for-android:3.7.0")
-    implementation("com.github.felHR85:UsbSerial:6.0.6")
+    // Librería UsbSerial
+    implementation("com.github.mik3y:usb-serial-for-android:3.9.0")
 }
